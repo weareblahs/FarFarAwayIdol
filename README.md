@@ -15,6 +15,7 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5. Inspi
  - End Credits Link
  - FFMPEG auto-run scripts for encoding (First-time setup)
  - Video.js video playback for ending videos (or using back liqvidjs?)
+ - Search for Other Endings (other than the Simon Cowell ones that are at MakeMKV Title 49)
 
 # What you'll need
  - Shrek 2 (Widescreen DVD)
