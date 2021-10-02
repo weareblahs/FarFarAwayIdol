@@ -9,5 +9,8 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5.
  - FFMPEG on PATH / same directory of this repository
    - Convert the ripped MKV files to MP4 for browser reading.
 
+# Titles of the DVD that you need to rip
+ - All the titles which the "Source Title ID" value on MakeMKV is 49.
+
 # Still developing
 I'm still researching how to make interactive videos on HTML5. Check back soon!
