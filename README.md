@@ -1,6 +1,9 @@
 # What's all about this?
 You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5.
 
+# What's actually used inside?
+ - liqvidjs (For playing video and main interactive video component)
+
 # What you'll need
  - Shrek 2 (DVD)
    - This version is developed with a 2004 version of the Shrek 2 DVD (Region 3).
@@ -11,6 +14,23 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5.
 
 # Titles of the DVD that you need to rip
  - All the titles which the "Source Title ID" value on MakeMKV is 49.
+
+# How to run?
+(FFMPEG autorun scripts for video isn't ready yet)
+  
+If you know, you know. As this project is fully based on node.js, This command can run this interactive experience through port 8000. Just follow this command before everything happens:
+```batch
+cd ffai_main && npm install && npm start
+```
+# What's finished developing
+ - Vote Screen for 1920x1080
+ - Intro Video
+
+# Developing checklist
+ - Ending Videos Link
+ - End Credits Link
+ - FFMPEG auto-run scripts for encoding (First-time setup)
+ - Video.js video playback for ending videos (or using back liqvidjs?)
 
 # Still developing
 I'm still researching how to make interactive videos on HTML5. Check back soon!
