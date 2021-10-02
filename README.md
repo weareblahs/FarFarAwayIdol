@@ -17,15 +17,12 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5. Inspi
  - Video.js video playback for ending videos (or using back liqvidjs?)
 
 # What you'll need
- - Shrek 2 (DVD)
+ - Shrek 2 (Widescreen DVD)
    - This version is developed with a 2004 version of the Shrek 2 DVD (Region 3). 
  - DVD Drive
    - You can rip the FFAI contents with your DVD Drive and MakeMKV. There should be 10 MKV files.
  - FFMPEG on PATH / same directory of this repository
    - Convert the ripped MKV files to MP4 for browser reading.
-
-# Titles of the DVD that you need to rip
- - All the titles which the "Source Title ID" value on MakeMKV is 49. 
 
 # How to run?
 (FFMPEG autorun scripts for video isn't ready yet)
