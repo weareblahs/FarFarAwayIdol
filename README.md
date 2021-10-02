@@ -7,6 +7,10 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5. Inspi
  - Node.js (Web server stuffs)
 
 # The question: Why did I do this?
+|![IMG_20211003_003936](https://user-images.githubusercontent.com/37889443/135725278-d24d791b-e15c-473a-934f-efd2e89fa898.jpg)|
+|:--:| 
+| *The version of the Shrek 2 DVD used to make this project* |  
+
 Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that one with a 3x3 grid DVD menu with donkey annoying other casts at the main menu), and there's an extra called "Far Far Away Idol" - only the 2004 DVD release have this interactive feature under the "DreamWorks Kids" category - or as I can say, after you played the movie on the DVD. Although Netflix has the full version of FFAI, it didn't provide interactive selection stuffs unlike the original DVD itself. So, I decided to make a HTML5 recreation of the Far Far Away Idol minigame.
 
 # What's finished developing
