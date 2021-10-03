@@ -33,9 +33,15 @@ Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that o
  - FFMPEG on PATH / same directory of this repository
    - Convert the ripped MKV files to MP4 for browser reading.
 
+# Before you start
+ - Put the Shrek 2 DVD into your disc drive
+ - MakeMKV > Preferences > Video > Set "Minimum Title Length (seconds)" to 0 > Apply > OK
+ - Rip entire Shrek 2 DVD
+ - Take out the Far Far Away Idol range from the DVD (Mine is from title_t92.mkv to title_t104.mkv)
+ - Copy these files to the root directory of the repository
+ - Run `FFAI_Encoding.bat`
+ - 
 # How to run?
-(FFMPEG autorun scripts for video isn't ready yet)
-  
 If you know, you know. As this project is fully based on node.js, This command can run this interactive experience through port 8000. Just follow this command before everything happens:
 ```batch
 cd ffai_main && npm install && npm start
