@@ -25,6 +25,9 @@ Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that o
  - Search for Other Endings (other than the Simon Cowell ones that are at MakeMKV Title 49)
  - Captions (if can)
 
+# What to fix
+ - Vote screen is bigger / smaller at different screen sizes other than 1920x929
+
 # What you'll need
  - Shrek 2 (Widescreen DVD)
    - This version is developed with a 2004 version of the Shrek 2 DVD (Region 3). 
