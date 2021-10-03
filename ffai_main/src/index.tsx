@@ -22,7 +22,7 @@ function MyVideo() {
 function Intro() {
   return (
     <section data-during="intro/">
-      <h1>Pre-Vote Screen</h1>
+      <h1></h1>
     </section>
   );
 }
