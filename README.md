@@ -43,8 +43,15 @@ Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that o
  - Take out the Far Far Away Idol range from the DVD (Mine is from title_t92.mkv to title_t104.mkv)
  - Copy these files to the root directory of the repository
  - Run `FFAI_Encoding.bat`
- - 
-# How to run?
+
+# What's the running environment that I'm currently using?
+ - 1920x1080 screen with Google Chrome
+   - Bookmark bar turned on
+Some screens won't display normally until you did some fine tune with the CSS stuffs, such as the size of the thumbnails. (fun fact: 1920x1080 screen running Chrome without bookmark bar also gets messed up)
+  
+If anyone knows a method of getting stuffs normally displayed (responsive?), feel free to submit an issue.
+
+# How to run? 
 If you know, you know. As this project is fully based on node.js, This command can run this interactive experience through port 8000. Just follow this command before everything happens:
 ```batch
 cd ffai_main && npm install && npm start
