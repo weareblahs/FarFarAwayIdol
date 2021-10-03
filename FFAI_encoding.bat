@@ -38,7 +38,7 @@ echo Supported audio formats: aac, vorbis
 echo
 echo Currently using, h264_qsv 5000k, aac 192k
 echo 
-echo TL;DR: You have Intel processor? then press any button to continue
+echo TL;DR: You have Intel processor? then press any button to continue.
 pause
 echo Encoding started.
 ffmpeg -i %title1% -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 merge1.mp4
