@@ -15,14 +15,23 @@ Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that o
 
 # What's finished developing
  - Vote Screen for 1920x1080
+   - Other screens with different resolution looked weird
  - Intro Video
+   - Merging the Vote screen with the Intro video
+ - Ending Videos Link
+   - HTML link at index.tsx
+ - FFMPEG auto-run scripts for encoding (First-time setup)
+   - Created for both Windows and Linux
+ - Video.js video playback for ending videos (or using back liqvidjs?)
+   - Currently using Video.js for endings
+ - Search for Other Endings (other than the Simon Cowell ones that are at MakeMKV Title 49)
+   - All endings found
 
 # Developing checklist
- - Ending Videos Link
  - End Credits Link
- - FFMPEG auto-run scripts for encoding (First-time setup)
- - Video.js video playback for ending videos (or using back liqvidjs?)
- - Search for Other Endings (other than the Simon Cowell ones that are at MakeMKV Title 49)
+ - CSS: Adaptive stuffs
+
+# Needs Help
  - Captions (if can)
 
 # What to fix
