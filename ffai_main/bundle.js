@@ -1081,7 +1081,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const parts = [
     ["intro/", "5:13.0"],
-    ["vote/", "1:00.5"],
+    ["vote/", "0:32.0"],
 ];
 const script = new liqvid__WEBPACK_IMPORTED_MODULE_1__.Script(parts);
 function FFAI_MainScreen() {

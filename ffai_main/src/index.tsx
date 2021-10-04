@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 
 const parts = [
   ["intro/", "5:13.0"],
-  ["vote/", "1:00.5"],
+  ["vote/", "0:32.0"],
 ];
 
 const script = new Script(parts);
