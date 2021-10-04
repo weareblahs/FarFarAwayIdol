@@ -36,17 +36,17 @@ read -p "TL;DR: You have Intel processor? then press any button to continue."
 echo "Encoding started."
 ffmpeg -i $title1 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 merge1.mp4
 ffmpeg -i $title2 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 merge2.mp4
-ffmpeg -f concat -i mergevid -c:v copy -c:a copy ffai_main\assets\intro.mp4
-ffmpeg -i $title3 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending1.mp4
-ffmpeg -i $title4 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending2.mp4
-ffmpeg -i $title5 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending3.mp4
-ffmpeg -i $title6 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending4.mp4
-ffmpeg -i $title7 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending5.mp4
-ffmpeg -i $title8 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending6.mp4
-ffmpeg -i $title9 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending7.mp4
-ffmpeg -i $title10 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending8.mp4
-ffmpeg -i $title11 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending9.mp4
-ffmpeg -i $title12 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main\assets\ending10.mp4
+ffmpeg -f concat -i mergevid -c:v copy -c:a copy ffai_main/assets/intro.mp4
+ffmpeg -i $title3 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending1.mp4
+ffmpeg -i $title4 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending2.mp4
+ffmpeg -i $title5 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending3.mp4
+ffmpeg -i $title6 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending4.mp4
+ffmpeg -i $title7 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending5.mp4
+ffmpeg -i $title8 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending6.mp4
+ffmpeg -i $title9 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending7.mp4
+ffmpeg -i $title10 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending8.mp4
+ffmpeg -i $title11 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending9.mp4
+ffmpeg -i $title12 -c:v h264_qsv -b:v 5000k -c:a aac -b:a 192k -ac 2 ffai_main/assets/ending10.mp4
 echo "Encoding for main assets complete!"
 echo "You can safely remove all the original MKV files."
 pause
