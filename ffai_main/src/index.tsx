@@ -1,17 +1,18 @@
 import {Player, Script, Video} from "liqvid";
+import * as ReactDOM from "react-dom";
 
-const markers = [
+const parts = [
   ["intro/", "5:13.0"],
   ["vote/", "1:00.5"],
 ];
 
-const script = new Script(markers);
+const script = new Script(parts);
 
-function MyVideo() {
+function FFAI_MainScreen() {
   return (
     <Player script={script}>
-      <Intro/>
-      <Plan/>
+      <introvideo/>
+      <votingscreen/>
       <Video start={0}>
         <source src="/assets/intro.mp4" type="video/mp4"/>
       </Video>
@@ -19,7 +20,7 @@ function MyVideo() {
   );
 }
 
-function Intro() {
+function introvideo() {
   return (
     <section data-during="intro/">
       <h1></h1>
@@ -27,7 +28,7 @@ function Intro() {
   );
 }
 
-function Plan() {
+function votingscreen() {
   return (
     <section data-during="vote/">
             <div id="shrekandfiona"><img src="assets/shrekandfiona.png"></div>
@@ -44,4 +45,4 @@ function Plan() {
   );
 }
 
-ReactDOM.render(<MyVideo/>, document.querySelector("main"));
+ReactDOM.render(<FFAI_MainScreen/>, document.querySelector("main"));

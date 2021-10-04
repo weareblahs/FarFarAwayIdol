@@ -984,6 +984,16 @@ module.exports = Liqvid;
 
 module.exports = React;
 
+/***/ }),
+
+/***/ "react-dom":
+/*!***************************!*\
+  !*** external "ReactDOM" ***!
+  \***************************/
+/***/ ((module) => {
+
+module.exports = ReactDOM;
+
 /***/ })
 
 /******/ 	});
@@ -1064,23 +1074,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var liqvid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! liqvid */ "liqvid");
 /* harmony import */ var liqvid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(liqvid__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
 
 
-const markers = [
+
+const parts = [
     ["intro/", "5:13.0"],
     ["vote/", "1:00.5"],
 ];
-const script = new liqvid__WEBPACK_IMPORTED_MODULE_1__.Script(markers);
-function MyVideo() {
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Player, Object.assign({ script: script }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Intro, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Plan, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Video, Object.assign({ start: 0 }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("source", { src: "/assets/intro.mp4", type: "video/mp4" }, void 0) }), void 0)] }), void 0));
+const script = new liqvid__WEBPACK_IMPORTED_MODULE_1__.Script(parts);
+function FFAI_MainScreen() {
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Player, Object.assign({ script: script }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("introvideo", {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("votingscreen", {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Video, Object.assign({ start: 0 }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("source", { src: "/assets/intro.mp4", type: "video/mp4" }, void 0) }), void 0)] }), void 0));
 }
-function Intro() {
+function introvideo() {
     return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("section", Object.assign({ "data-during": "intro/" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {}, void 0) }), void 0));
 }
-function Plan() {
+function votingscreen() {
     return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", Object.assign({ "data-during": "vote/" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "shrekandfiona" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/shrekandfiona.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "pussinboots" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/pussinboots.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "hook" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/hook.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "gingy" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/gingy.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "mice" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/mice.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "charming" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/charming.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "bbwtlp" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/bbwtlp.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "doris" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/doris.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "pinocchio" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/pinocchio.png" }, void 0) }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", Object.assign({ id: "donkey" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: "assets/donkey.png" }, void 0) }), void 0)] }), void 0));
 }
-ReactDOM.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(MyVideo, {}, void 0), document.querySelector("main"));
+react_dom__WEBPACK_IMPORTED_MODULE_2__.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(FFAI_MainScreen, {}, void 0), document.querySelector("main"));
 
 })();
 
