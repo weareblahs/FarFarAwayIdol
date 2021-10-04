@@ -5,6 +5,7 @@ You'll be able to play the Shrek 2 DVD Extra "Far Far Away Idol" as HTML5. Inspi
 # What's actually used inside?
  - liqvidjs (For playing video and main interactive video component)
  - Node.js (Web server stuffs)
+ - Video.js (Ending Video Playback)
 
 # The question: Why did I do this?
 |![IMG_20211003_003936](https://user-images.githubusercontent.com/37889443/135725278-d24d791b-e15c-473a-934f-efd2e89fa898.jpg)|
@@ -28,11 +29,14 @@ Actually I have a copy of the iconic Shrek 2 DVD (if you know, you know - that o
    - All endings found
 
 # Developing checklist
- - End Credits Link
  - CSS: Adaptive stuffs
 
 # Needs Help
  - Captions (if can)
+ - End Credits Link
+  - Don't know how to redirect after video playback on video.js. Followed some guides but can't let it work.
+    - Condition: Video must be auto-play and navigation hidden
+    - Alternative Workaround: Use FFMPEG to merge endings with credits
 
 # What to fix
  - Vote screen is bigger / smaller at different screen sizes other than 1920x929
