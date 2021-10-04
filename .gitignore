@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 
-# misc
+# misc, macOS stuffs
 .DS_Store
 
 npm-debug.log*
