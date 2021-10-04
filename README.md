@@ -56,3 +56,107 @@ If you know, you know. As this project is fully based on node.js, This command c
 ```batch
 cd ffai_main && npm install && npm start
 ```
+
+# Things to improve
+CSS positions for the voting screen. These are the current properties for the voting screen in style.css, and if you can improve (the image should be adaptive and have the same position / different size?), just submit a PR with the new code on ffai_main\style.css:
+```css
+ #shrekandfiona 
+{ 
+     left: 863px; 
+     top: 533px; 
+     position: absolute; 
+     width: 226px;
+     height: 200px;
+     z-index:1;
+} 
+
+ #pussinboots 
+{ 
+     left: 632px; 
+     top: 535px; 
+     position: absolute; 
+     width: 220px;
+     height: 201px;
+     z-index:2;
+} 
+
+ #hook 
+{ 
+     left: 394px; 
+     top: 535px; 
+     position: absolute; 
+     width: 222px;
+     height: 201px;
+     z-index:3;
+} 
+
+ #gingy 
+{ 
+     left: 979px; 
+     top: 312px; 
+     position: absolute; 
+     width: 223px;
+     height: 205px;
+     z-index:4;
+} 
+
+ #mice 
+{ 
+     left: 749px; 
+     top: 316px; 
+     position: absolute; 
+     width: 217px;
+     height: 202px;
+     z-index:5;
+} 
+
+ #charming 
+{ 
+     left: 517px; 
+     top: 312px; 
+     position: absolute; 
+     width: 219px;
+     height: 206px;
+     z-index:6;
+} 
+
+ #bbwtlp 
+{ 
+     left: 283px; 
+     top: 317px; 
+     position: absolute; 
+     width: 218px;
+     height: 200px;
+     z-index:7;
+} 
+
+ #doris 
+{ 
+     left: 868px; 
+     top: 97px; 
+     position: absolute; 
+     width: 223px;
+     height: 203px;
+     z-index:8;
+} 
+
+ #pinocchio 
+{ 
+     left: 640px; 
+     top: 99px; 
+     position: absolute; 
+     width: 217px;
+     height: 198px;
+     z-index:9;
+} 
+
+ #donkey 
+{ 
+     left: 405px; 
+     top: 97px; 
+     position: absolute; 
+     width: 218px;
+     height: 202px;
+     z-index:10;
+} 
+```
