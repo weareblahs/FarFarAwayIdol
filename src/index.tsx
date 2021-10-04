@@ -1,17 +1,18 @@
 import {Player, Script, Video} from "liqvid";
+import * as ReactDOM from "react-dom";
 
 const markers = [
-  ["intro/", "5:13.0"],
-  ["vote/", "1:00.5"],
+  ["intro/", "5:13.2"],
+  ["vote/", "0:32.0"],
 ];
 
 const script = new Script(markers);
 
-function MyVideo() {
+function FFAI() {
   return (
     <Player script={script}>
       <Intro/>
-      <Plan/>
+      <VoteScreen/>
       <Video start={0}>
         <source src="/assets/intro.mp4" type="video/mp4"/>
       </Video>
@@ -27,21 +28,21 @@ function Intro() {
   );
 }
 
-function Plan() {
+function VoteScreen() {
   return (
     <section data-during="vote/">
-            <div id="shrekandfiona"><img src="assets/shrekandfiona.png"></div>
-            <div id="pussinboots"><img src="assets/pussinboots.png"></div>
-            <div id="hook"><img src="assets/hook.png"></div>
-            <div id="gingy"><img src="assets/gingy.png"></div>
-            <div id="mice"><img src="assets/mice.png"></div>
-            <div id="charming"><img src="assets/charming.png"></div>
-            <div id="bbwtlp"><img src="assets/bbwtlp.png"></div>
-            <div id="doris"><img src="assets/doris.png"></div>
-            <div id="pinocchio"><img src="assets/pinocchio.png"></div>
-            <div id="donkey"><img src="assets/donkey.png"></div>
+            <div id="shrekandfiona"><a href="./assets/3.html"><img src="./assets/shrekandfiona.png"></img></a></div>
+            <div id="pussinboots"><a href="./assets/2.html"><img src="./assets/pussinboots.png"></img></a></div>
+            <div id="hook"><a href="./assets/4.html"><img src="./assets/hook.png"></img></a></div>
+            <div id="gingy"><a href="./assets/5.html"><img src="./assets/gingy.png"></img></a></div>
+            <div id="mice"><a href="./assets/6.html"><img src="./assets/mice.png"></img></a></div>
+            <div id="charming"><a href="./assets/7.html"><img src="./assets/charming.png"></img></a></div>
+            <div id="bbwtlp"><a href="./assets/8.html"><img src="./assets/bbwtlp.png"></img></a></div>
+            <div id="doris"><a href="./assets/9.html"><img src="./assets/doris.png"></img></a></div>
+            <div id="pinocchio"><a href="./assets/10.html"><img src="./assets/pinocchio.png"></img></a></div>
+            <div id="donkey"><a href="./assets/1.html"><img src="./assets/donkey.png"></img></a></div>
     </section>
   );
 }
 
-ReactDOM.render(<MyVideo/>, document.querySelector("main"));
+ReactDOM.render(<FFAI/>, document.querySelector("main"));
