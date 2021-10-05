@@ -966,6 +966,31 @@ else {
 
 /***/ }),
 
+/***/ "./src/markers.ts":
+/*!************************!*\
+  !*** ./src/markers.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "markers": () => (/* binding */ markers),
+/* harmony export */   "script": () => (/* binding */ script),
+/* harmony export */   "playback": () => (/* binding */ playback)
+/* harmony export */ });
+/* harmony import */ var liqvid__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! liqvid */ "liqvid");
+/* harmony import */ var liqvid__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(liqvid__WEBPACK_IMPORTED_MODULE_0__);
+
+const markers = [
+    ["intro/", "5:13.2"],
+    ["vote/", "0:32.0"],
+];
+const script = new liqvid__WEBPACK_IMPORTED_MODULE_0__.Script(markers);
+const playback = script.playback;
+
+
+/***/ }),
+
 /***/ "liqvid":
 /*!*************************!*\
   !*** external "Liqvid" ***!
@@ -1076,16 +1101,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var liqvid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(liqvid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _markers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./markers */ "./src/markers.ts");
 
 
 
-const markers = [
-    ["intro/", "5:13.2"],
-    ["vote/", "0:32.0"],
-];
-const script = new liqvid__WEBPACK_IMPORTED_MODULE_1__.Script(markers);
+
 function FFAI() {
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Player, Object.assign({ script: script }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Intro, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(VoteScreen, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Video, Object.assign({ start: 0 }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("source", { src: "/assets/intro.mp4", type: "video/mp4" }, void 0) }), void 0)] }), void 0));
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Player, Object.assign({ script: _markers__WEBPACK_IMPORTED_MODULE_3__.script }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Intro, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(VoteScreen, {}, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(liqvid__WEBPACK_IMPORTED_MODULE_1__.Video, Object.assign({ start: 0 }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("source", { src: "/assets/intro.mp4", type: "video/mp4" }, void 0) }), void 0)] }), void 0));
 }
 function Intro() {
     return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("section", Object.assign({ "data-during": "intro/" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {}, void 0) }), void 0));

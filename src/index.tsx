@@ -1,12 +1,7 @@
 import {Player, Script, Video} from "liqvid";
 import * as ReactDOM from "react-dom";
-
-const markers = [
-  ["intro/", "5:13.2"],
-  ["vote/", "0:32.0"],
-];
-
-const script = new Script(markers);
+import controls from "@env/controls";
+import {script} from "./markers";
 
 function FFAI() {
   return (
